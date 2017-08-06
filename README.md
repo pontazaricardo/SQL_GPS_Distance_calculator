@@ -9,3 +9,7 @@ For calculating the distance of the two given GPS coordinates, we use the [Harve
 ## Usage
 
 In order to use the distance function, just type 
+
+```sql
+select DISTANCE(24.784734,120.995724,24.785498,120.996633,'KM');
+```
