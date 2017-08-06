@@ -22,6 +22,8 @@ This function can take the following measure of units as inputs:
 2. Miles:  Type *'MILE'* or *'MI'* as input.
 
 ## Example
+
+If just want to measure the distace between two GPS coordinates, use a *SELECT* statement.
 ```sql
 select DISTANCE(24.784734,120.995724,24.785498,120.996633,'KM');
 select DISTANCE(24.784734,120.995724,24.785498,120.996633,'MI');
